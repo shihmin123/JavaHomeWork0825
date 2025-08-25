@@ -20,46 +20,46 @@
 
 <h2>📂 目錄結構（建議）</h2>
 project-root/
-├─ controller/                      # Swing UI & 事件流程
-│  ├─ LoginFrame.java               # 登入介面
-│  ├─ RegisterFrame.java            # 註冊介面
-│  ├─ UserCenterFrame.java          # 使用者中心
-│  ├─ AddMusicFrame.java            # 搜尋並新增音樂
-│  ├─ MusicListFrame.java           # 顯示/重整音樂清單
-│  ├─ YoutubePreviewFrame.java      # YouTube 影片播放預覽
-│  ├─ EditProfileFrame.java         # 使用者修改個人資料
-│  ├─ AdminDashboardFrame.java      # 管理員總覽
-│  ├─ AdminMusicFrame.java          # 管理所有音樂
-│  └─ AdminUsersFrame.java          # 管理所有使用者
+├─ controller/                      # Swing UI & 事件流程<br>
+│  ├─ LoginFrame.java               # 登入介面<br>
+│  ├─ RegisterFrame.java            # 註冊介面<br>
+│  ├─ UserCenterFrame.java          # 使用者中心<br>
+│  ├─ AddMusicFrame.java            # 搜尋並新增音樂<br>
+│  ├─ MusicListFrame.java           # 顯示/重整音樂清單<br>
+│  ├─ YoutubePreviewFrame.java      # YouTube 影片播放預覽<br>
+│  ├─ EditProfileFrame.java         # 使用者修改個人資料<br>
+│  ├─ AdminDashboardFrame.java      # 管理員總覽<br>
+│  ├─ AdminMusicFrame.java          # 管理所有音樂<br>
+│  └─ AdminUsersFrame.java          # 管理所有使用者<br>
 
-├─ dao/                             # 資料存取介面
-│  ├─ UserDao.java                  # 使用者資料存取介面
-│  └─ MusicDao.java                 # 音樂資料存取介面
+├─ dao/                             # 資料存取介面<br>
+│  ├─ UserDao.java                  # 使用者資料存取介面<br>
+│  └─ MusicDao.java                 # 音樂資料存取介面<br>
 
-├─ dao/impl/                        # DAO 實作
-│  ├─ UserDaoImpl.java              # UserDao 的實作
-│  └─ MusicDaoImpl.java             # MusicDao 的實作
+├─ dao/impl/                        # DAO 實作<br>
+│  ├─ UserDaoImpl.java              # UserDao 的實作<br>
+│  └─ MusicDaoImpl.java             # MusicDao 的實作<br>
 
-├─ model/                           # 資料模型
-│  ├─ User.java                     # 對應 User 資料表
-│  └─ Music.java                    # 對應 Music 資料表
+├─ model/                           # 資料模型<br>
+│  ├─ User.java                     # 對應 User 資料表<br>
+│  └─ Music.java                    # 對應 Music 資料表<br>
 
-├─ service/                         # 業務邏輯
-│  ├─ UserService.java              # 使用者相關業務邏輯
-│  └─ MusicService.java             # 音樂相關業務邏輯
+├─ service/                         # 業務邏輯<br>
+│  ├─ UserService.java              # 使用者相關業務邏輯<br>
+│  └─ MusicService.java             # 音樂相關業務邏輯<br>
 
-├─ service/impl/                    # Service 實作
-│  ├─ UserServiceImpl.java          # UserService 的實作
-│  └─ MusicServiceImpl.java         # MusicService 的實作
+├─ service/impl/                    # Service 實作<br>
+│  ├─ UserServiceImpl.java          # UserService 的實作<br>
+│  └─ MusicServiceImpl.java         # MusicService 的實作<br>
 
-├─ util/                            # 共用工具
-│  ├─ AdminMusicUtil.java           # 管理員操作音樂的工具方法
-│  ├─ AdminUsersUtil.java           # 管理員操作使用者的工具方法
-│  ├─ Auth.java                     # 登入驗證與權限檢查
-│  ├─ DbConnection.java             # MySQL 連線工具
-│  ├─ MusicListUtil.java            # 音樂清單操作工具
-│  ├─ PasswordUtil.java             # 密碼加密與驗證
-│  └─ YouTubeUtil.java              # YouTube 播放與網址解析
+├─ util/                            # 共用工具<br>
+│  ├─ AdminMusicUtil.java           # 管理員操作音樂的工具方法<br>
+│  ├─ AdminUsersUtil.java           # 管理員操作使用者的工具方法<br>
+│  ├─ Auth.java                     # 登入驗證與權限檢查<br>
+│  ├─ DbConnection.java             # MySQL 連線工具<br>
+│  ├─ MusicListUtil.java            # 音樂清單操作工具<br>
+│  ├─ PasswordUtil.java             # 密碼加密與驗證<br>
+│  └─ YouTubeUtil.java              # YouTube 播放與網址解析<br>
 
 
 
