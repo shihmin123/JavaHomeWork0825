@@ -1,4 +1,4 @@
-<h1># 🎵 音樂清單管理系統</h2>
+<h1># 🎵 音樂清單管理系統</h1>
 
 > Java Swing + MySQL 的 MVC 專案，提供帳號管理、音樂清單管理、圖表分析與管理者後台等功能。
 
@@ -19,7 +19,7 @@
 - **報表與技術支援**：可輸出或截圖報表，協助後續維運。
 
 <h2>📂 目錄結構（建議）</h2>
-project-root/
+project-root/<br>
 ├─ controller/                      # Swing UI & 事件流程<br>
 │  ├─ LoginFrame.java               # 登入介面<br>
 │  ├─ RegisterFrame.java            # 註冊介面<br>
